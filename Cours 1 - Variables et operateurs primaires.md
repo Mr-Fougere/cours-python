@@ -107,8 +107,6 @@ aire = ........ \* ............
 ----
 ### 🏗 Partie application 🏗
 
-1️⃣ Ecrire un **programme** permettant de calculer l'**aire**d'un**triangle isocèle** avec pour valeur d'entrée sa **hauteur** et sa **base**
-
-2️⃣ Ecire un **programme** permettant de calculer l'**aire** d'un **triangle rectangle** avec pour valeur d'entré sa **largueur** et sa **longueur**
+Ecrire un **programme** permettant de calculer l'**aire** d'un **triangle quelconque** avec pour valeur d'entrée sa **hauteur** et sa **base**
 
 ⭐ **Bonus** ⭐ Ecrire un **programme** permettant de calculer l'**aire** d'un triangle **quelconque** à partir de **pythagore** 
