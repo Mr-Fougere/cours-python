@@ -100,9 +100,9 @@ print ( b \* a )
 # Puis on demande la largueur 
 ............ = input( "Veuillez indiquer la ............. de la forme")
 # On calcule l'aire avec la formule **longueur x largueur** 
-aire = ........ \* ............
+aire = ........ * ............
 # On termine par afficher l'aire de la figure 
-.........(f " L'aire de la figure rectangulaire est égale à { aire }" )	
+.........(f" L'aire de la figure rectangulaire est égale à { aire }" )	
 ````
 ----
 ### 🏗 Partie application 🏗
