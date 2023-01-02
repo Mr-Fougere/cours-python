@@ -74,23 +74,23 @@ print ( a )
 ````
 a = 0 ; b = 3 ; c = 4 ; d = 10
 tableau = [ a , b , c , d ]
-résultat = tableau [ -1 ] \*\*2
+résultat = tableau [ -1 ] **2
 résultat /= tableau [ b ]
 print( résultat )
 ````
 3️⃣ De quel facon peut-on **simplifier** le **code** suivant ?
 ````
-a = 5 ; b = 3 ; c = a \* b
+a = 5 ; b = 3 ; c = a * b
 a = b + a 
 c = c / b
-b = a \* c 
+b = a * c 
 print ( b )
 ````
 4️⃣ Que fait le **code suivant** ? **Modifier** le pour qu'il soit plus **explicite**
 ````
 a = 0.5
 b = int( input ( "Veuillez insérer un chiffre :" ) )
-print ( b \* a )
+print ( b * a )
 ````
 5️⃣ **Compléter** ce code
 ````
