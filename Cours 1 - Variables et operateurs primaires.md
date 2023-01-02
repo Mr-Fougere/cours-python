@@ -109,4 +109,4 @@ aire = ........ \* ............
 
 Ecrire un **programme** permettant de calculer l'**aire** d'un **triangle quelconque** avec pour valeur d'entrée sa **hauteur** et sa **base**
 
-⭐ **Bonus** ⭐ Ecrire un **programme** permettant de calculer l'**aire** d'un triangle **quelconque** à partir de **pythagore** 
+⭐ **Bonus** ⭐ Ecrire un **programme** permettant de calculer l'**hypothénuse** d'un triangle **quelconque** à partir de **pythagore** 
