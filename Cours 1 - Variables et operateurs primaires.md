@@ -2,19 +2,19 @@
 ### ☑️Partie QCM ☑️
 
 1️⃣ Comment **peut-on décrire** une **variable** ?
-- [x] Un conteneur stockant une valeur fixe 
-- [x] Un conteneur dont la valeur peut être modifé
+- [ ] Un conteneur stockant une valeur fixe 
+- [ ] Un conteneur dont la valeur peut être modifé
 - [ ] Elle peut avoir plusieurs type de valeur simultanément 
-- [x] Il est obligatoire de lui attribuer une valeur avant d'effectuer des opérations avec celle-ci
+- [ ] Il est obligatoire de lui attribuer une valeur avant d'effectuer des opérations avec celle-ci
 
 2️⃣ Lesquels de ces **types** peut être **attribué** à une **variable** ?
-- [x] int 
-- [x] float 
-- [x] string
-- [x] bool 
+- [ ] int 
+- [ ] float 
+- [ ] string
+- [ ] bool 
 
 3️⃣ Quel **fonction** utiliser pour convertir **"0"** en **0**  ?
-- [x] int()
+- [ ] int()
 - [ ] string()
 - [ ] number()
 - [ ] integer()
@@ -22,43 +22,43 @@
 4️⃣ Lequel de ces **opérateurs** n'est pas un **opérateur arithmétique** ?
 - [ ] +
 - [ ] **
-- [x] =
+- [ ] =
 - [ ] %
 
 5️⃣ Quel **opérateur** utilisé pour avoir le **reste** qu'une **division** entre **a** et **b** ?
 - [ ] a/b
 - [ ] a%b
-- [x] a//b
+- [ ] a//b
 - [ ] a\*b
 
 6️⃣ Quel **opérateur** permet d'attribuer à **c** le résultat de la **puissance** de **c** par **x**  ?
  - [ ] c += x => c = c + x
  - [ ] c %= x => c = c % x
- - [x] c \*\*= x 
+ - [ ] c \*\*= x 
  - [ ] c \*= x
 
 7️⃣ Quel **fonction** utilisé pour afficher la variable **a** ?
 - [ ] show(a)
 - [ ] display(a) 
 - [ ] input(a)
-- [x] print(a)
+- [ ] print(a)
 
 8️⃣ Comment demander une variable **b** à l'utilisateur ?
-- [x] b = input("Indiquer b :")
+- [ ] b = input("Indiquer b :")
 - [ ] b = give("Indiquer b :")
 - [ ] b = send("Indiquer b :")
 - [ ] b = indicate("Indiquer b :")
 
 9️⃣ Comment créer un **tableau de valeurs** ?
 - [ ] tableau = 1 2 3 4
-- [x] tableau = [ 1 , 2 , 3 , 4 ]
+- [ ] tableau = [ 1 , 2 , 3 , 4 ]
 - [ ] tableau = [ 1 2 3 4 ]
 - [ ] tableau = { 1 : 2 : 3 :4 }
 
 🔟 Comment récupérer le **dernier élément** du **tableau** précédént  ? 
 - [ ] tableau[0]
 - [ ] tableau[1]
-- [x] tableau[-1]
+- [ ] tableau[-1]
 - [ ] tableau[x]
 
 ----
@@ -70,6 +70,7 @@ b = 0
 b = a
 print ( a )
 ````
+
 2️⃣ Que retourne l'**éxécution** de ce **code** ? 
 ````
 a = 0 ; b = 3 ; c = 4 ; d = 10
@@ -78,6 +79,7 @@ résultat = tableau [ -1 ] **2
 résultat /= tableau [ b ] => tableau[1:3] => [ 3, 4, 10]
 print( résultat )
 ````
+
 3️⃣ De quel facon peut-on **simplifier** le **code** suivant ?
 ````
 a = 5 ; b = 3 ; c = a * b
@@ -86,11 +88,13 @@ c = c / b => c /= b
 b = a * c 
 print ( b )
 ````
+
 4️⃣ Que fait le **code suivant** ? **Modifier** le pour qu'il soit plus **explicite**
 ````
 b = int( input ( "Veuillez insérer le chiffre à diviser par deux :" ) )
 print(f"La motié du chiffre {b} est {b / 2}" )
 ````
+
 5️⃣ **Compléter** ce code
 ````
 # Ce programme permet de retourner l'aire d'une figure rectangulaire droite grâce à sa longueur et sa largeur 
