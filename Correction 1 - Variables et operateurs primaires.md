@@ -70,6 +70,7 @@ b = 0
 b = a
 print ( a )
 ````
+
 **Réponse** : 
 Non le code ne va pas s'éxécutait correctement car la variable a n'est pas attribué auparavant il est donc impossible de change la valeur de b pour a.
 
@@ -81,6 +82,7 @@ résultat = tableau [ -1 ] \*\*2
 résultat /= tableau [ b ]
 print( résultat )
 ````
+
 **Réponse** : 
 *Ligne 3* : Il initialise la variable résultat à la valeur du dernier élement du tableau au carré . 
 *Ligne 4* : Il change la valeur de la variable résultat par la division de la valeur précédente de résultat par le quatrième élément du tableau. 
@@ -95,20 +97,30 @@ c = c / b
 b = a \* c 
 print ( b )
 ````
+
 **Réponse** : 
-`print ( b = ((a+=b) * (c/=b)))`
+````
+a = 5 ; b = 3 ; c = a \* b
+a += b  
+c /= b
+b = a \* c 
+print ( b )
+````
+
 4️⃣ Que fait le **code suivant** ? **Modifier** le pour qu'il soit plus **explicite**
 ````
 a = 0.5
 b = int( input ( "Veuillez insérer un chiffre :" ) )
 print ( b * a )
 ````
+
 **Réponse** : 
 Il permet de diviser un chiffre entier par deux.
 ````
 b = int( input ( "Veuillez insérer un chiffre à diviser par 2 :" ) )
 print ( b \ 2 )
 ````
+
 5️⃣ **Compléter** ce code
 ````
 # Ce programme permet de retourner l'aire d'une figure rectangulaire droite grâce à sa longueur et sa largeur 
@@ -130,3 +142,11 @@ Ecrire un **programme** permettant de calculer l'**aire** d'un **triangle quelco
 
 ____
 ### 🧠Ce qu'il faut retenir 🧠
+ - Toujours assigner une valeur à une variable avant de l'utiliser
+ - Une variable peut avoir plusieurs types :  int ( chiffre entier ) , float ( chiffre décimal ) , bool ( true / false) , array ( tableau de valeur ), str ( chaine de caractère ), 
+ - Une variable qui ne va pas changer durant tout le long d'un programme est appelé : une constante ( tels que pi )
+ - Le nom d'une constante s'écrira uniquement en majuscule ( ex : ``PI`` ) alors qu'une variable s'écrit uniquement en minuscule ( ex : ``age``  , ``birth_date`` ) cela permet de rapidement faire la différence.
+- Un tableau commence toujours à la position 0 , pour récupérer la valeur dans le tableau à une position donné on utilise les crochets [ ] ( ex : ``tableau[4]`` -> nous récupérons donc le 5ème élément du tableau )
+- La fonction input retourne une valeur de type str , si on demande à l'utilisateur de renter un nombre il faut donc utiliser la fonction ``int( )`` pour le convertir en type int .
+- La fonction`` print( )`` permet d'afficher un texte dans la console , on ne peut afficher qu'un type de variable à la fois sauf dans le cas d'interpolation en utilisant le symbole ``f`` et en encadrant les interpolations par des accolades.( ex : ``print( f" Vous avez { age } ans ")`` )
+- Toujours être très explicite dans ce qu'on demande à l'utilisateur et dans ce qu'on lui montre 
