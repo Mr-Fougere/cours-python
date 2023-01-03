@@ -32,9 +32,9 @@
 - [ ] a\*b
 
 6️⃣ Quel **opérateur** permet d'attribuer à **c** le résultat de la **puissance** de **c** par **x**  ?
- - [ ] c += x => c = c + x
- - [ ] c %= x => c = c % x
- - [x] c \*\*= x 
+ - [ ] c += x
+ - [ ] c %= x
+ - [x] c \*\*= x
  - [ ] c \*= x
 
 7️⃣ Quel **fonction** utilisé pour afficher la variable **a** ?
@@ -70,36 +70,54 @@ b = 0
 b = a
 print ( a )
 ````
+**Réponse** : 
+Non le code ne va pas s'éxécutait correctement car la variable a n'est pas attribué auparavant il est donc impossible de change la valeur de b pour a.
+
 2️⃣ Que retourne l'**éxécution** de ce **code** ? 
 ````
 a = 0 ; b = 3 ; c = 4 ; d = 10
 tableau = [ a , b , c , d ]
-résultat = tableau [ -1 ] **2
-résultat /= tableau [ b ] => tableau[1:3] => [ 3, 4, 10]
+résultat = tableau [ -1 ] \*\*2
+résultat /= tableau [ b ]
 print( résultat )
 ````
+**Réponse** : 
+*Ligne 3* : Il initialise la variable résultat à la valeur du dernier élement du tableau au carré . 
+*Ligne 4* : Il change la valeur de la variable résultat par la division de la valeur précédente de résultat par le quatrième élément du tableau. 
+*Ligne 5* : On affiche résultat
+**Le code retournera le chiffre 10 .** 
+
 3️⃣ De quel facon peut-on **simplifier** le **code** suivant ?
 ````
-a = 5 ; b = 3 ; c = a * b
-a = b + a => a += b 
-c = c / b => c /= b
-b = a * c 
+a = 5 ; b = 3 ; c = a \* b
+a = b + a 
+c = c / b
+b = a \* c 
 print ( b )
 ````
+**Réponse** : 
+`print ( b = ((a+=b) * (c/=b)))`
 4️⃣ Que fait le **code suivant** ? **Modifier** le pour qu'il soit plus **explicite**
 ````
-b = int( input ( "Veuillez insérer le chiffre à diviser par deux :" ) )
-print(f"La motié du chiffre {b} est {b / 2}" )
+a = 0.5
+b = int( input ( "Veuillez insérer un chiffre :" ) )
+print ( b * a )
+````
+**Réponse** : 
+Il permet de diviser un chiffre entier par deux.
+````
+b = int( input ( "Veuillez insérer un chiffre à diviser par 2 :" ) )
+print ( b \ 2 )
 ````
 5️⃣ **Compléter** ce code
 ````
 # Ce programme permet de retourner l'aire d'une figure rectangulaire droite grâce à sa longueur et sa largeur 
 # On commence par demander la longueur 
-longueur = input( "Veuillez indiquer la longueur de la forme")
+longueur = input( "Veuillez indiquer la longueur de la forme en mm : ")
 # Puis on demande la largueur 
-largeur = input( "Veuillez indiquer la largeur de la forme")
+largueur = input( "Veuillez indiquer la largueur de la forme en mm : ")
 # On calcule l'aire avec la formule **longueur x largueur** 
-aire = int(longueur) * int(largeur)
+aire = int(longueur) * int(largueur)
 # On termine par afficher l'aire de la figure 
 print(f" L'aire de la figure rectangulaire est égale à { aire }" )	
 ````
@@ -109,3 +127,6 @@ print(f" L'aire de la figure rectangulaire est égale à { aire }" )
 Ecrire un **programme** permettant de calculer l'**aire** d'un **triangle quelconque** avec pour valeur d'entrée sa **hauteur** et sa **base**
 
 ⭐ **Bonus** ⭐ Ecrire un **programme** permettant de calculer l'**hypothénuse** d'un triangle **quelconque** à partir de **pythagore** 
+
+____
+### 🧠Ce qu'il faut retenir 🧠
