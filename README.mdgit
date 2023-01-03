@@ -1,0 +1,1 @@
+"# cours-python"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin https://github.com/Mr-Fougere/cours-python.gitgit push -u origin main

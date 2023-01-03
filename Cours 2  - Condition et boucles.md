@@ -1,6 +1,7 @@
 ----
 ### ⌛Questions cours précédents ⌛
 
+
 1️⃣  Citer 5 types de variables possibles 
 
 2️⃣  Comment récupérer le 5ème élément d'un tableau 
