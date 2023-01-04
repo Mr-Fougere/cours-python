@@ -133,15 +133,15 @@ def fonction1(word):
 	
 	return out
 
-while " " in mot:
+while " " in word:
 
 	flag = False
     
-    word = input("Veuillez insérer un mot sans espace ! :")
+    	word = input("Veuillez insérer un mot sans espace ! :")
 	
 	word2 = fonction1(word)
 	
-	if mot == mot2:
+	if word == word2:
 	
 	   flag = True
 
@@ -192,7 +192,7 @@ print( f"Voici votre phrase corrigé : \"{........}\" " )
 Ecrire un **programme** pour **convertir** une **température** depuis n'importe quel **unité** vers n'importe quel **unité**
 
 ⭐ Bonus ⭐
-
+	
 Ecrire un programme pour générer du texte aléatoire ( s'inspirer de lorem ipsum )
 - mot d'une longueur aléatoire (minimum : 2 lettres , maximum 9 lettres )
 - ligne d'un nombre de mot aléatoire ( minimum 8 mots , maximum 12 mots )
