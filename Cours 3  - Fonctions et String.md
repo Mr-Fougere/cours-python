@@ -133,15 +133,15 @@ def fonction1(word):
 	
 	return out
 
-while " " in mot:
+while " " in word:
 
 	flag = False
     
-    word = input("Veuillez insérer un mot sans espace ! :")
+    	word = input("Veuillez insérer un mot sans espace ! :")
 	
 	word2 = fonction1(word)
 	
-	if mot == mot2:
+	if word == word2:
 	
 	   flag = True
 
