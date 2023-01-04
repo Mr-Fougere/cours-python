@@ -192,3 +192,10 @@ print( f"Voici votre phrase corrigé : \"{........}\" " )
 Ecrire un **programme** pour **convertir** une **température** depuis n'importe quel **unité** vers n'importe quel **unité**
 
 ⭐ Bonus ⭐
+
+Ecrire un programme pour générer du texte aléatoire ( s'inspirer de lorem ipsum )
+- mot d'une longueur aléatoire (minimum : 2 lettres , maximum 9 lettres )
+- ligne d'un nombre de mot aléatoire ( minimum 8 mots , maximum 12 mots )
+- nombre de ligne à générer ( input )
+- 2 même lettres ne doivent pas se suivrent 
+- 3 consommes ou 3 voyelle ne doivent pas se suivrent 

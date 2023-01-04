@@ -225,3 +225,28 @@ Ecrire un **programme** de ✌️✊✋( pierre papier ciseaux) grâce au module
 
 ⭐ **Bonus** ⭐
 Ecrire un **programme** reprenant le principe du **juste prix** dans une intervalle de 100 avec un nombre d'essai limité 🎰
+
+```
+import random
+
+print("Bienvenue! Au cours de ce programme nous vous demanderons de devinez le juste prix d'un objet")
+juste_prix = random.randint(0,100)
+
+choice = False
+
+while choice != juste_prix:
+
+    choice = int(input("Vueillez saisir un prix  0 et 100 :"))
+
+    if choice > juste_prix:
+
+        print("Moins")
+
+    elif choice < juste_prix:
+
+        print("Plus")
+
+    else:
+
+        print("Bien joué")`
+```
